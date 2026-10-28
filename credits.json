@@ -1,0 +1,12 @@
+{
+  "remixOf" : [
+    {
+      "name" : "Local Crossings",
+      "starter" : "localcrossings",
+      "url" : "https://github.com/RooCodeInc/lamp-starter-localcrossings"
+    }
+  ],
+  "upstream" : [
+
+  ]
+}
