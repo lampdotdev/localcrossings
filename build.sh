@@ -301,7 +301,7 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <plist version="1.0"><dict>
   <key>CFBundleDevelopmentRegion</key><string>en</string>
   <key>CFBundleExecutable</key><string>LocalCrossings</string>
-  <key>CFBundleIdentifier</key><string>dev.lamp.dev.pensive-curie-69cf17.app.localcrossings</string>
+  <key>CFBundleIdentifier</key><string>dev.lamp.dev.app.localcrossings</string>
   <key>CFBundleName</key><string>Local Crossings</string>
   <key>CFBundleDisplayName</key><string>Local Crossings</string>
   <key>CFBundlePackageType</key><string>APPL</string>
@@ -325,6 +325,6 @@ cat > "$APP/Contents/Info.plist" <<PLIST
   <key>NSAppleMusicUsageDescription</key><string>Local Crossings plays music from your library.</string>
 </dict></plist>
 PLIST
-intents LocalCrossings "$APP" "dev.lamp.dev.pensive-curie-69cf17.app.localcrossings" Sources
+intents LocalCrossings "$APP" "dev.lamp.dev.app.localcrossings" Sources
 codesign --force -s - "$APP"
 echo "Built $APP"
